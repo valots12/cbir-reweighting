@@ -19,7 +19,7 @@ Three different methods are used:
 
 ### 1. Rebalancing type 1 
 
-<img src="https://user-images.githubusercontent.com/63108350/226203376-fe61aca2-aa52-4964-8773-f025bad4e1a6.png" width=10%>
+<img src="https://user-images.githubusercontent.com/63108350/226203376-fe61aca2-aa52-4964-8773-f025bad4e1a6.png" width=50%>
 
 New weight for the i-th feature is equal to the division between the standard deviation over the 20 retrieved images and the standard deviation over the relevant images at the previous round.
 
