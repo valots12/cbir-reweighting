@@ -13,13 +13,13 @@ Main concepts of the paper:
 
 Also, a simple HTML interface is available for test using the FGVC-Aircraft-100 dataset. A DenseNet201 Neural Network trained on the training set is used as feature extractor. The number of similar images detected at each step is set to 20, while our interface shows only the best 6 ones.
 
-<img src="https://user-images.githubusercontent.com/63108350/226201266-35918085-7344-42bb-b958-5d6ee4ad936c.mp4" width=100>
+<img src="https://user-images.githubusercontent.com/63108350/226201266-35918085-7344-42bb-b958-5d6ee4ad936c.mp4">
 
 Three different methods are used:
 
 ### 1. Rebalancing type 1 
 
-![Screenshot_20230210_130504](https://user-images.githubusercontent.com/63108350/226203376-fe61aca2-aa52-4964-8773-f025bad4e1a6.png)
+![Screenshot_20230210_130504](https://user-images.githubusercontent.com/63108350/226203376-fe61aca2-aa52-4964-8773-f025bad4e1a6.png width = 10%)
 
 New weight for the i-th feature is equal to the division between the standard deviation over the 20 retrieved images and the standard deviation over the relevant images at the previous round.
 
