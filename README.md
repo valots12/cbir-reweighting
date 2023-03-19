@@ -48,3 +48,5 @@ The table below contains the performance of the methods described according to t
 | Round 3      | 85.10     | 59.91     | 57.94     |
 | Round 4      | 85.41     | 60.09     | 57.85     |
 | Round 5      | ***85.54*** | 60.53     | 57.77     |
+
+Only the first method leads to an increase in the metric used. For this reason, it is the one used for the interface demo.
