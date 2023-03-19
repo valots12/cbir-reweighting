@@ -26,7 +26,7 @@ New weight for the i-th feature is equal to the division between the standard de
 ### 2. Rebalancing type 2
 
 <img src="https://user-images.githubusercontent.com/63108350/226203388-4fdd1599-18b3-416e-b281-3cbd234c6998.png" width=50%>
-<img src="https://user-images.githubusercontent.com/63108350/226203391-6c2486f0-ad83-4cf1-8a4f-64f5cb08fe13.png" width=50%>
+<img src="https://user-images.githubusercontent.com/63108350/226203391-6c2486f0-ad83-4cf1-8a4f-64f5cb08fe13.png" width=25%>
 
 New weight for the i-th feature is equal to the division between the sigma quantity defined in the second formula, that depends on the dominant range, and the standard deviation over the relevant images at the previous round.
 
