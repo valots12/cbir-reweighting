@@ -11,4 +11,8 @@ Main concepts of the paper:
 - Use of weighted Minkowski distance as similarity measure
 - Update of the query results according to user preferences
 
-Also, a simple HTML interface is available for test using the FGVC-Aircraft-100 dataset.
+Also, a simple HTML interface is available for test using the FGVC-Aircraft-100 dataset. A DenseNet201 Neural Network trained on the training set is used as feature extractor. The number of similar images detected at each step is set to 20, while our interface shows only the best 6 ones.
+
+https://user-images.githubusercontent.com/63108350/226201266-35918085-7344-42bb-b958-5d6ee4ad936c.mp4
+
+
