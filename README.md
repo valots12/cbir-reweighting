@@ -41,6 +41,7 @@ New weight for the i-th feature is equal to the the delta value defined in the p
 The table below contains the performance of the methods described according to the top20 Precision as metric.
 
 
+| ------------ | --------- | --------- | --------- |
 | Round number | Type 1    | Type 2    | Type 3    |
 | ------------ | --------- | --------- | --------- |
 | Round 0      | 77.56     | **77.56** | **77.56** |
