@@ -3,6 +3,7 @@
 ***Part of Digital Signal and Image Management project | UniMiB***
 
 The aim of the project is to provide a human-in-the-loop re-weighting process for a CBIR process. The reference for the the retrieval architecture is the following:
+
 *Das, G., Ray, S., & Wilson, C. (2006). Feature re-weighting in content-based image retrieval. 
 In Image and Video Retrieval: 5th International Conference, CIVR 2006, Tempe, AZ, USA, July 13-15, 2006.*
 
