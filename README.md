@@ -19,16 +19,11 @@ Three different methods are used:
 
 ### 1. Rebalancing type 1
 
-<img src="https://user-images.githubusercontent.com/63108350/226203376-fe61aca2-aa52-4964-8773-f025bad4e1a6.png" width=50%>
-
 $weight-type 1: w_i^{k+1}=\frac{\epsilon+\sigma_{N_r, i}^k}{\epsilon+\sigma_{r e l, i}^k}, \epsilon=0.0001$
 
 The new weight for the i-th feature is equal to the division between the standard deviation over the 20 retrieved images and the standard deviation over the relevant images at the previous round.
 
 ### 2. Rebalancing type 2
-
-<img src="https://user-images.githubusercontent.com/63108350/226203388-4fdd1599-18b3-416e-b281-3cbd234c6998.png" width=50%>
-<img src="https://user-images.githubusercontent.com/63108350/226203391-6c2486f0-ad83-4cf1-8a4f-64f5cb08fe13.png" width=25%>
 
 $weight-type 2: w_i^{k+1}=\frac{\delta_i^k}{\epsilon+\sigma_{r e l, i}^k}$
 
@@ -38,8 +33,6 @@ $\delta_i^k=1-\frac{\sum_{l=1}^k\left|\psi_i^{l, U}\right|}{\sum_{l=1}^k\left|F_
 The new weight for the i-th feature is equal to the division between the sigma quantity defined in the second formula, which depends on the dominant range, and the standard deviation over the relevant images at the previous round.
 
 ### 3. Rebalancing type 3
-
-<img src="https://user-images.githubusercontent.com/63108350/226203398-ad5c9e48-971b-4b7c-84b6-16169a70e15f.png" width=50%>
 
 $weight-type 3: w_i^{k+1}=\delta_i^k * \frac{\epsilon+\sigma_{N_r, i}^k}{\epsilon+\sigma_{r e l, i}^k}$
 
