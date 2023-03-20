@@ -52,3 +52,5 @@ The table below contains the performance of the methods described according to t
 <img src="https://user-images.githubusercontent.com/63108350/226282555-16719c50-1ce9-47f3-b601-0bb5e51fd65a.jpg" width=40%>
 
 Only the first method leads to an increase in the metric used. For this reason, it is the one used for the interface demo.
+
+$\delta_i^k=1-\frac{\sum_{l=1}^k\left|\psi_i^{l, U}\right|}{\sum_{l=1}^k\left|F_i^{l, U}\right|}$
