@@ -1,0 +1,5 @@
+Pillow
+Flask
+tensorflow>=2.0.0
+pandas
+numpy
