@@ -49,6 +49,6 @@ The table below contains the performance of the methods described according to t
 | Round 4      | 85.41     | 60.09     | 57.85     |
 | Round 5      | ***85.54*** | 60.53     | 57.77     |
 
-<img src="https://user-images.githubusercontent.com/63108350/226282102-64e0fec1-7dc5-48c2-b3d8-fb38cd77b7ed.jpg" width=40%>
+<img src="https://user-images.githubusercontent.com/63108350/226282555-16719c50-1ce9-47f3-b601-0bb5e51fd65a.jpg" width=40%>
 
 Only the first method leads to an increase in the metric used. For this reason, it is the one used for the interface demo.
