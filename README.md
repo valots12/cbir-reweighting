@@ -25,16 +25,16 @@ The new weight for the i-th feature is equal to the division between the standar
 
 ### 2. Rebalancing type 2
 
-$weight-type 2: w_i^{k+1}=\frac{\delta_i^k}{\epsilon+\sigma_{r e l, i}^k}$
+$\large weight-type 2: w_i^{k+1}=\frac{\delta_i^k}{\epsilon+\sigma_{r e l, i}^k}$
 
-$\delta_i^k=1-\frac{\sum_{l=1}^k\left|\psi_i^{l, U}\right|}{\sum_{l=1}^k\left|F_i^{l, U}\right|}$
+$\large \delta_i^k=1-\frac{\sum_{l=1}^k\left|\psi_i^{l, U}\right|}{\sum_{l=1}^k\left|F_i^{l, U}\right|}$
 
 
 The new weight for the i-th feature is equal to the division between the sigma quantity defined in the second formula, which depends on the dominant range, and the standard deviation over the relevant images at the previous round.
 
 ### 3. Rebalancing type 3
 
-$weight-type 3: w_i^{k+1}=\delta_i^k * \frac{\epsilon+\sigma_{N_r, i}^k}{\epsilon+\sigma_{r e l, i}^k}$
+$\large weight-type 3: w_i^{k+1}=\delta_i^k * \frac{\epsilon+\sigma_{N_r, i}^k}{\epsilon+\sigma_{r e l, i}^k}$
 
 The new weight for the i-th feature is equal to the delta value defined in the previous slide by the weights of type 1.
 
