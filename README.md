@@ -19,7 +19,7 @@ Three different methods are used:
 
 ### 1. Rebalancing type 1
 
-$weight-type 1: w_i^{k+1}=\frac{\epsilon+\sigma_{N_r, i}^k}{\epsilon+\sigma_{r e l, i}^k}, \epsilon=0.0001$
+$\large weight-type 1: w_i^{k+1}=\frac{\epsilon+\sigma_{N_r, i}^k}{\epsilon+\sigma_{r e l, i}^k}, \epsilon=0.0001$
 
 The new weight for the i-th feature is equal to the division between the standard deviation over the 20 retrieved images and the standard deviation over the relevant images at the previous round.
 
