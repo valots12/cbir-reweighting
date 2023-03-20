@@ -54,3 +54,5 @@ The table below contains the performance of the methods described according to t
 Only the first method leads to an increase in the metric used. For this reason, it is the one used for the interface demo.
 
 $\delta_i^k=1-\frac{\sum_{l=1}^k\left|\psi_i^{l, U}\right|}{\sum_{l=1}^k\left|F_i^{l, U}\right|}$
+
+\delta_i^k=1-\frac{\sum_{l=1}^k\left|\psi_i^{l, U}\right|}{\sum_{l=1}^k\left|F_i^{l, U}\right|}
